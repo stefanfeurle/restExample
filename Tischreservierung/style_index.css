@@ -1,0 +1,63 @@
+h1 {
+    font-size: 60px;    
+    position: relative;   
+    text-align: center;    
+ }
+
+ body {
+     background-image: url(asserts/Essen.jpg);
+     background-size: contain;
+ }
+
+ div {
+     background-color: silver;   
+     opacity: 0.8;
+     padding: 1%;
+     margin: 3%;
+     width: 60%;
+     position: relative;
+     left: 15%;    
+ }
+
+ .quote {
+    position: relative;
+    top: 0px;
+    font-size: 24px;
+}
+
+#author {
+    font-size: 18px;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    width: 60%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    font-size: 24px;
+    left: -2%;
+}
+
+#container {
+    background-color: white;
+}
+
+#nameUser {
+    background-color: black;
+    color: yellow;
+}
+
+a {
+    display: inline-block;
+}
+

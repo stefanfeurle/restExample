@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style_restaurant.css" type="text/css" rel="stylesheet">
+        <script src="js_index.js"></script>
+        <title>LändleGastro_Reservation1</title>        
+    </head>
+    <body onload="newReservations()"> 
+        <div>
+            <header>
+                <div id ="container">
+                    <a id="nameUser"></a><br>
+                    <a href="reservation.html">Home</a><br>
+                    <a type="button" onclick="logout()">Logout</a><br>
+                </div><br><br>
+            </header>
+            <h1>Ländle Gastro<br>Dein Gastronom in deiner Nähe</h1>
+            <p><str>Neue Reservierung</str></p>
+            <label id="restaurantLabel" for="restaurant">Restaurant______</label>
+            <select id="restaurant">
+            </select><br><br>
+            <label id="hourLabel" for="hour">Uhrzeit_________</label>
+            <select id="hour">
+                <option value='--'>-h-</option>
+                <option value='11'>11:</option>
+                <option value='12'>12:</option>
+                <option value='13'>13:</option>
+                <option value='17'>17:</option>
+                <option value='18'>18:</option>
+                <option value='19'>19:</option>
+                <option value='20'>20:</option>
+                <option value='21'>21:</option>
+                <option value='22'>22:</option>
+                <option value='23'>23:</option>
+            </select>
+            <label id="minLabel" for="min"></label>
+            <select id="min">
+                <option value='--'>min</option>
+                <option value='00'>00</option>
+                <option value='15'>15</option>
+                <option value='30'>30</option>
+                <option value='45'>45</option>
+            </select><br><br>
+            <label id="yearLabel" for="year">Datum_________</label>
+            <select id="year">
+                <option value='--'>year</option>
+                <option value='2020'>2020</option>
+                <option value='2021'>2021</option>
+            </select>
+            <label id="monthLabel" for="month"></label>
+            <select id="month">
+                <option value='--'>month</option>
+                <option value='01'>01</option>
+                <option value='02'>02</option>
+                <option value='03'>03</option>
+                <option value='04'>04</option>
+                <option value='05'>05</option>
+                <option value='06'>06</option>
+                <option value='07'>07</option>
+                <option value='08'>08</option>
+                <option value='09'>09</option>
+                <option value='10'>10</option>
+                <option value='11'>11</option>
+                <option value='12'>12</option>
+            </select>
+            <label id="dayLabel" for="day"></label>
+            <select id="day">
+                <option value='--'>day</option>
+                <option value='01'>01</option>
+                <option value='02'>02</option>
+                <option value='03'>03</option>
+                <option value='04'>04</option>
+                <option value='05'>05</option>
+                <option value='06'>06</option>
+                <option value='07'>07</option>
+                <option value='08'>08</option>
+                <option value='09'>09</option>
+                <option value='10'>10</option>
+                <option value='11'>11</option>
+                <option value='12'>12</option>
+                <option value='13'>13</option>
+                <option value='14'>14</option>
+                <option value='15'>15</option>
+                <option value='16'>16</option>
+                <option value='17'>17</option>
+                <option value='18'>18</option>
+                <option value='19'>19</option>
+                <option value='20'>20</option>
+                <option value='21'>21</option>
+                <option value='22'>22</option>
+                <option value='23'>23</option>
+                <option value='24'>24</option>
+                <option value='25'>25</option>
+                <option value='26'>26</option>
+                <option value='27'>27</option>
+                <option value='28'>28</option>
+                <option value='29'>29</option>
+                <option value='30'>30</option>
+                <option value='31'>31</option>
+            </select><br><br>
+            <label id="countPersonLabel" for="countPerson">Anzahl Personen_</label>
+            <input id="countPerson" type="number" min="1" max="10" step="1" value="2"><br>
+            <p><button id ="button" type="button" onclick="newReservation()">Neue Reservierung abschicken</button></p>
+
+            <footer class="quote">
+                <p>"Wir leben nicht, um zu essen; wir essen, um zu leben."<br>
+            <em id="author">Sokrates (um 470 - 399 v.Chr.), griech. Philosoph</em></p> 
+            </footer>
+        </div>        
+    </body>
+</html>

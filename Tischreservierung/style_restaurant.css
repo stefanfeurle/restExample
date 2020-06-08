@@ -1,0 +1,96 @@
+h1 {
+    font-size: 60px;    
+    position: relative;   
+    text-align: center;    
+ }
+
+ body {
+     background-image: url(asserts/Essen.jpg);
+     background-size: contain;
+ }
+
+ div {
+     background-color: silver;   
+     opacity: 0.8;
+     padding: 1%;
+     margin: 3%;
+     width: 60%;
+     position: relative;
+     left: 15%;    
+ }
+
+ .quote {
+    position: relative;
+    top: 0px;
+    font-size: 24px;
+}
+
+#author {
+    font-size: 18px;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    width: 60%;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    font-size: 24px;
+    left: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#container {
+    background-color: white;
+}
+
+main {
+    display: inline-block;
+    padding-bottom: 5%;
+    background-color: white;
+    width: 55%;
+}
+
+#nameUser {
+    background-color: black;
+    color: yellow;
+}
+
+a {
+    background-color: white;
+    width: 60%;
+}
+
+#delete1,
+#delete2 {
+    color: red;
+    font-weight: 800;
+}
+
+label {
+    font-size: 24px;
+}
+
+select {
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+}
+
+#button {
+    background-color: orange;
+}

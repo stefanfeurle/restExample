@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style_index.css" type="text/css" rel="stylesheet">
+        <script src="js_index.js"></script>
+        <title>LändleGastro_Reservation</title>        
+    </head>
+    <body onload="printUserName()"> 
+        <div>
+            <header>
+                <div id ="container">
+                    <a id="nameUser"></a>
+                    <a type="button" onclick="logout()">Logout</a>
+                </div><br><br>
+            </header>
+            <h1>Ländle Gastro<br>Dein Gastronom in deiner Nähe</h1>
+            <p><button type="button" onclick="newReservationPage()">Neue Reservierung</button></p>
+            <p><button type="button" onclick="reservationPage()">Deine Reservierungen</button></p>
+            <footer class="quote">
+                <p>"Wir leben nicht, um zu essen; wir essen, um zu leben."<br>
+            <em id="author">Sokrates (um 470 - 399 v.Chr.), griech. Philosoph</em></p> 
+            </footer>
+        </div>        
+    </body>
+</html>
